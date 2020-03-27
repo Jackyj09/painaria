@@ -1,5 +1,5 @@
 module.exports = Object.freeze({
-  TOKEN: 'bot_token',
+  TOKEN: '1143608520:AAEzs5O4myGWWlWuJXW1dEwq8jGaRGCEdYg',
   ARIA_SECRET: 'pronoob',
   ARIA_DOWNLOAD_LOCATION: '/home/user/path/to/download/dir (no trailing "/")',
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
@@ -9,7 +9,7 @@ module.exports = Object.freeze({
   INDEX_DOMAIN: '', //Get it from here https://gdindex-code-builder.glitch.me/
   GDRIVE_PARENT_DIR_ID: '1UWurU7Gv6lGpgQkYsAOkntiL6cQbJU61',
   SUDO_USERS: [882130858],	// Telegram user IDs. These users can use the bot in any chat.
-  AUTHORIZED_CHATS: [-1001400815841],	// Telegram chat IDs. Anyone in these chats can use the bot.
+  AUTHORIZED_CHATS: [-1001224267594],	// Telegram chat IDs. Anyone in these chats can use the bot.
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting
   DRIVE_FILE_PRIVATE: {
     ENABLED: false,
