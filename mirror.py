@@ -1,4 +1,4 @@
-$)Cimport requests
+import requests
 from telegram.ext import CommandHandler, run_async
 from telegram import InlineKeyboardMarkup
 
