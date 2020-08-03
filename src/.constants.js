@@ -1,16 +1,16 @@
-module.exports = Object.freeze({
-  TOKEN: '1143608520:AAEzs5O4myGWWlWuJXW1dEwq8jGaRGCEdYg',
+  module.exports = Object.freeze({
+  TOKEN: '939080410:AAGUSgktw9xYXeKWZfzAeu8VKd9zgOs1fh0',
   ARIA_SECRET: 'pronoob',
-  ARIA_DOWNLOAD_LOCATION: '/home/user/path/to/download/dir (no trailing "/")',
+  ARIA_DOWNLOAD_LOCATION: '/home/user/path/to/download/dir',
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
   ARIA_FILTERED_DOMAINS: [], // Prevent downloading from URLs containing these substrings
   ARIA_FILTERED_FILENAMES: [], // Files/top level directories with these substrings in the filename won't be downloaded
   ARIA_PORT: 8210, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well
-  INDEX_DOMAIN: '', //Get it from here https://gdindex-code-builder.glitch.me/
-  GDRIVE_PARENT_DIR_ID: '1UWurU7Gv6lGpgQkYsAOkntiL6cQbJU61',
+  INDEX_DOMAIN: 'https://fucku.evilbros.me/', //Get it from here https://gdindex-code-builder.glitch.me/
+  GDRIVE_PARENT_DIR_ID: '0AE7-MiwE83wKUk9PVA',
   SUDO_USERS: [882130858],	// Telegram user IDs. These users can use the bot in any chat.
-  AUTHORIZED_CHATS: [-1001224267594],	// Telegram chat IDs. Anyone in these chats can use the bot.
-  STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting
+  AUTHORIZED_CHATS: [-1001403349196,-1001224267594],	// Telegram chat IDs. Anyone in these chats can use the bot.
+  STATUS_UPDATE_INTERVAL_MS: 5000, // A smaller number will update faster, but might cause rate limiting
   DRIVE_FILE_PRIVATE: {
     ENABLED: false,
     EMAILS: ['someMail@gmail.com', 'someOtherMail@gmail.com']
@@ -23,7 +23,7 @@ module.exports = Object.freeze({
   },
   COMMANDS_USE_BOT_NAME: {
     ENABLED: true,  // If true, all commands except '/list' has to have the bot username after the command
-    NAME: "@Prouploaderr_bot"
+    NAME: "@AnonymousfilesUploader_bot"
   },
-  IS_TEAM_DRIVE: false
+  IS_TEAM_DRIVE: true
 });
